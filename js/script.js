@@ -6,7 +6,7 @@ function lab(p){return p.lab||(p.m==="Rent"?"per month":p.m==="Assume"?"per mont
 function tag(p){return p.tg||(p.m==="Sell"?"For sale":p.m==="Rent"?"For rent":"Assume balance")}
 function imgs(p){return p.imgs&&p.imgs.length?p.imgs:(p.img?[p.img]:[])}
 function pic(p){var im=imgs(p);return im.length?'<img src="'+esc(im[0])+'" alt="" loading="lazy">':'<div class="ph"><svg viewBox="0 0 64 48" aria-hidden="true"><path d="M6 24L32 4l26 20M12 20v24h40V20M26 44V30h12v14"/></svg>Photo coming soon</div>'}
-fetch("data/data.json",{cache:"no-store"}).then(function(r){return r.json()}).then(function(d){D=d;init()}).catch(function(){gr.innerHTML='<div class="empty">The property list could not load. Open this site through a web server (see README).</div>'});
+(window.JKB&&JKB.url&&JKB.key?fetch(JKB.url+"/rest/v1/site_content?id=eq.main&select=data",{headers:{apikey:JKB.key,Authorization:"Bearer "+JKB.key}}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(a){if(!a.length||!a[0].data)throw 0;return a[0].data}):Promise.reject()).catch(function(){return fetch("data/data.json",{cache:"no-store"}).then(function(r){return r.json()})}).then(function(d){D=d;init()}).catch(function(){gr.innerHTML='<div class="empty">The property list could not load. Open this site through a web server (see README).</div>'});
 function init(){
  var s=D.site||{};MSG=s.messenger||MSG;
  if(s.name){document.title=s.name+": rent, buy or assume";document.querySelectorAll("[data-site-name]").forEach(function(e){e.textContent=s.name})}
@@ -15,7 +15,38 @@ function init(){
  if(s.facebook)document.querySelectorAll("[data-fb]").forEach(function(a){a.href=s.facebook});
  var locs=[];D.listings.forEach(function(p){if(p.loc&&locs.indexOf(p.loc)<0)locs.push(p.loc)});locs.sort();
  locs.forEach(function(l){var o=document.createElement("option");o.textContent=l;$("f-loc").appendChild(o)});
- render();events();
+ hero();portrait(s);render();events();
+}
+
+var hs=[],hi=0,ht=null,hpause=false,HT=$("h-title"),HX=$("h-text"),HD={t:HT.textContent,x:HX.textContent};
+function portrait(s){if(s.portrait===""){$("portrait").hidden=true;document.querySelector(".hero-grid").style.gridTemplateColumns="1fr"}else if(s.portrait){$("portrait-img").src=s.portrait}}
+function hero(){
+ var list=(D.hero||[]).filter(function(h){return h&&h.img});if(!list.length)return;
+ hs=list;var box=$("slides");
+ box.innerHTML=hs.map(function(h,i){return '<div class="slide'+(i?'':' on')+'"><img src="'+esc(h.img)+'" alt=""'+(i?' loading="lazy"':'')+'></div>'}).join("");
+ $("hdots").innerHTML=hs.map(function(h,i){return '<button class="'+(i?'':'on')+'" aria-label="Go to slide '+(i+1)+'" data-i="'+i+'"></button>'}).join("");
+ hset(0,true);
+ if(hs.length<2)return;
+ $("hero").classList.remove("single");
+ $("hprev").onclick=function(){hset(hi-1);hplay()};$("hnext").onclick=function(){hset(hi+1);hplay()};
+ $("hdots").onclick=function(e){var b=e.target.closest("button");if(b){hset(+b.dataset.i);hplay()}};
+ var hh=$("hero"),x0=0;
+ hh.addEventListener("mouseenter",function(){hpause=true});hh.addEventListener("mouseleave",function(){hpause=false});
+ hh.addEventListener("focusin",function(){hpause=true});hh.addEventListener("focusout",function(){hpause=false});
+ hh.addEventListener("touchstart",function(e){x0=e.touches[0].clientX},{passive:true});
+ hh.addEventListener("touchend",function(e){var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>50){hset(hi+(dx<0?1:-1));hplay()}});
+ hplay();
+}
+function hplay(){clearInterval(ht);if(window.matchMedia("(prefers-reduced-motion:reduce)").matches)return;ht=setInterval(function(){if(!hpause&&!document.hidden)hset(hi+1)},6500)}
+function hset(i,first){
+ var n=hs.length;hi=(i+n)%n;
+ document.querySelectorAll(".slide").forEach(function(e,k){e.classList.toggle("on",k===hi)});
+ document.querySelectorAll("#hdots button").forEach(function(e,k){e.classList.toggle("on",k===hi)});
+ var h=hs[hi],t=h.title||HD.t,x=h.text||HD.x;
+ if(first){HT.textContent=t;HX.textContent=x;return}
+ if(HT.textContent===t&&HX.textContent===x)return;
+ HT.style.opacity=HX.style.opacity=0;
+ setTimeout(function(){HT.textContent=t;HX.textContent=x;HT.style.opacity=HX.style.opacity=1},300);
 }
 function facts(p){var f=[p.t];if(p.b!=null)f.push(p.b?p.b+" bed":"Studio");if(p.ba!=null)f.push(p.ba+" bath");if(p.s!=null)f.push(p.s+" m²");if(f.length===1)f.push(p.loc);return f}
 function render(){

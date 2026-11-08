@@ -3,8 +3,8 @@
     "name": "JKB Homerise PH",
     "messenger": "https://m.me/johnkevin.binalon",
     "facebook": "https://www.facebook.com/johnkevin.binalon",
-    "owner": "John Kevin Ibañez",
-    "role": "Marketing Partner, FHT8"
+    "owner": "John Kevin Ibañez Biñalon",
+    "role": "Real Estate Agent · Filipino Homes Team 8"
   },
   "listings": [
     {
@@ -491,5 +491,22 @@
       "id": "s7"
     }
   ],
-  "events": []
+  "events": [],
+  "hero": [
+    {
+      "img": "images/mahogany-1-exterior.webp",
+      "title": "TEST HEADLINE",
+      "text": "Bungalow with loft in Tugbok, Davao City. Low monthly equity and a clubhouse community. Message us for site tripping."
+    },
+    {
+      "img": "images/hero-building.webp",
+      "title": "Find Your Best Property in Davao",
+      "text": "Rent it, buy it or assume the balance. Every listing shows the full price and terms. Ready to invest or own a home? Send me a message."
+    },
+    {
+      "img": "images/mulig-toril-soon.webp",
+      "title": "New Two-Storey Homes in Toril",
+      "text": "Coming soon to Mulig, Toril. Message us to get updates and early information."
+    }
+  ]
 }

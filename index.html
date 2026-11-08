@@ -4,23 +4,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>JKB Homerise PH: rent, buy or assume</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="top">
 <div class="top"><div class="wrap"><span class="hide">Houses, condos and apartments in Davao City</span><span><a data-msg href="https://m.me/johnkevin.binalon" target="_blank" rel="noopener">Fast reply on Messenger</a></span></div></div>
-<nav class="nav"><div class="wrap"><a class="logo" href="#top"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#ff9433" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h14V10M10 20v-6h4v6"/></svg><span data-site-name>JKB Homerise PH</span></a>
+<nav class="nav"><div class="wrap"><a class="logo" href="#top"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#c19a56" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true"><path d="M3 11l9-8 9 8M5 10v10h14V10M10 20v-6h4v6"/></svg><span data-site-name>JKB Homerise PH</span></a>
 <div class="links"><a href="#top">Home</a><a href="#listings">Properties</a><a href="#how">How it works</a><a href="#events">Events</a><a href="#guide">Buyer guide</a><a href="#contact">Contact</a></div>
 <a class="btn" data-msg href="https://m.me/johnkevin.binalon" target="_blank" rel="noopener">Message on Messenger</a><button class="burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button></div></nav>
 
-<header class="hero"><img class="scene" id="scene" src="images/hero-building.webp" alt="" aria-hidden="true">
-<div class="wrap"><div class="hero-grid"><div class="hero-copy">
-<p class="role"><em style="font-style:normal" data-owner>John Kevin Ibañez</em><span data-role>Marketing Partner, FHT8</span></p>
-<h1>Find Your Best Property in Davao</h1>
-<p class="lead">Rent it, buy it or assume the balance. Every listing shows the full price and terms. Ready to invest or own a home? Send me a message.</p>
+<header class="hero single" id="hero"><div class="slides" id="slides" aria-hidden="true"><div class="slide on"><img src="images/hero-building.webp" alt=""></div></div>
+<button class="hnav hp" id="hprev" aria-label="Previous slide">&#8249;</button><button class="hnav hn" id="hnext" aria-label="Next slide">&#8250;</button><div class="hdots" id="hdots"></div>
+<div class="wrap"><div class="hero-grid"><div class="hero-copy" aria-live="polite">
+<p class="role"><em style="font-style:normal" data-owner>John Kevin Ibañez Biñalon</em><span data-role>Real Estate Agent · Filipino Homes Team 8</span></p>
+<h1 id="h-title">Find Your Best Property in Davao</h1>
+<p class="lead" id="h-text">Rent it, buy it or assume the balance. Every listing shows the full price and terms. Ready to invest or own a home? Send me a message.</p>
 <div class="cta-row"><a class="btn" href="#listings">Browse properties</a><a class="btn ghost" data-msg href="https://m.me/johnkevin.binalon" target="_blank" rel="noopener">Message on Messenger</a></div>
 </div>
-<figure class="portrait"><img src="images/portrait.webp" alt="Portrait in a black suit"></figure></div></div></header>
+<figure class="portrait" id="portrait"><img id="portrait-img" src="images/portrait.webp" alt="Portrait in a black suit"></figure></div></div></header>
 
 <div class="search"><div class="wrap"><div class="sbox" role="search">
 <div><label for="f-deal">I want to</label><select id="f-deal"><option value="All">Rent, buy or assume</option><option value="Rent">Rent</option><option value="Sell">Buy</option><option value="Assume">Assume balance</option></select></div>
@@ -62,13 +63,14 @@
 <a class="btn" data-msg href="https://m.me/johnkevin.binalon" target="_blank" rel="noopener">Message on Messenger</a><a class="btn ghost" href="#listings">See properties</a></div></div></section>
 
 <footer><div class="wrap"><div class="cols">
-<div><h4 data-site-name>JKB Homerise PH</h4><p>Rent, sell and assume properties in Davao City.</p></div>
+<div><h4 data-site-name>JKB Homerise PH</h4><p>Rent, sell and assume properties in Davao City.</p><p style="margin-top:10px"><b style="color:#fff" data-owner>John Kevin Ibañez Biñalon</b><br><span data-role>Real Estate Agent · Filipino Homes Team 8</span></p></div>
 <div><h4>Browse</h4><a href="#listings">All properties</a><a href="#how">Assume balance</a><a href="#awards">Awards</a></div>
 <div><h4>Contact</h4><a data-msg href="https://m.me/johnkevin.binalon" target="_blank" rel="noopener">Message on Messenger</a><a data-fb href="https://www.facebook.com/johnkevin.binalon" target="_blank" rel="noopener">Facebook</a><p>Davao City, Philippines</p></div>
 </div><p class="small">Sample listings and contact details. Replace them with your own before sharing.</p></div></footer>
 
 <dialog id="dlg" aria-labelledby="dt"><div id="dpic"></div><div class="dhead"><div><h3 id="dt"></h3><p class="addr" id="da" style="margin:4px 0 0"></p></div><button class="x" id="close" aria-label="Close">✕</button></div><div class="dbody" id="db"></div></dialog>
 
+<script src="js/config.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

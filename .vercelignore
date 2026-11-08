@@ -1,6 +1,3 @@
-admin.html
-js/admin.js
-server.js
-package.json
-private
 README.md
+SETUP-SUPABASE.md
+supabase-setup.sql

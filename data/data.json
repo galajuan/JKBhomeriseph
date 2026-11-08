@@ -1,0 +1,495 @@
+{
+  "site": {
+    "name": "JKB Homerise PH",
+    "messenger": "https://m.me/johnkevin.binalon",
+    "facebook": "https://www.facebook.com/johnkevin.binalon",
+    "owner": "John Kevin Ibañez",
+    "role": "Marketing Partner, FHT8"
+  },
+  "listings": [
+    {
+      "id": "mahogany-south",
+      "m": "Sell",
+      "tg": "Pre-selling",
+      "lab": "per month equity for 24 months",
+      "n": "Mahogany South",
+      "t": "House",
+      "loc": "Tugbok",
+      "a": "Along Mahayahay St., Tugbok, Davao City",
+      "p": 24000,
+      "b": 2,
+      "ba": 2,
+      "s": null,
+      "img": "images/mahogany-1-exterior.webp",
+      "imgs": [
+        "images/mahogany-1-exterior.webp",
+        "images/mahogany-2-loft-view.webp",
+        "images/mahogany-3-living-kitchen.webp",
+        "images/mahogany-4-bedroom.webp",
+        "images/mahogany-5-bathroom.webp"
+      ],
+      "d": "A bungalow with a loft in Mahogany South, along Mahayahay St., Tugbok, Davao City. Send a message for site tripping and more details.",
+      "x": [
+        [
+          "Equity",
+          "As low as ₱24,000+ per month for 24 months"
+        ],
+        [
+          "Reservation fee",
+          "₱30,000"
+        ],
+        [
+          "Model",
+          "Bungalow with loft"
+        ],
+        [
+          "Lot area",
+          "100 sqm"
+        ],
+        [
+          "Loft",
+          "Yes"
+        ],
+        [
+          "Parking",
+          "Carport"
+        ],
+        [
+          "Developer",
+          "AlsonsDev"
+        ],
+        [
+          "Status",
+          "Pre-selling house and lot"
+        ]
+      ],
+      "am": [
+        "Clubhouse",
+        "Swimming pool",
+        "Playgrounds",
+        "Parks and green spaces",
+        "Basketball courts",
+        "Security features",
+        "Accessibility to basic services",
+        "Wide roads and sidewalks",
+        "Landscaped areas"
+      ]
+    },
+    {
+      "id": "deca-toril-2",
+      "m": "Sell",
+      "tg": "6–8 months turn over",
+      "n": "Deca Mulig Toril Phase 2",
+      "t": "House",
+      "loc": "Toril",
+      "a": "Deca Mulig, Toril, Davao City",
+      "p": null,
+      "b": null,
+      "ba": null,
+      "s": null,
+      "img": "images/deca-mulig-toril.webp",
+      "d": "Balay sa Davao na dali ra mapuy-an. A single-storey house in Deca Mulig Toril Phase 2 with a gated frontage and tiled interiors. Turn over in 6 to 8 months. Message us for the price and payment terms.",
+      "x": [
+        [
+          "Project",
+          "Deca Mulig Toril Phase 2"
+        ],
+        [
+          "Turn over",
+          "6 to 8 months"
+        ],
+        [
+          "Price",
+          "Message for price"
+        ]
+      ],
+      "am": [
+        "Single-storey house",
+        "Gated frontage",
+        "Tiled floors"
+      ]
+    },
+    {
+      "id": "mulig-toril-soon",
+      "m": "Sell",
+      "tg": "Coming soon",
+      "n": "Mulig Toril Two-Storey Homes",
+      "t": "House",
+      "loc": "Toril",
+      "a": "Mulig, Toril, Davao City",
+      "p": null,
+      "b": null,
+      "ba": null,
+      "s": null,
+      "img": "images/mulig-toril-soon.webp",
+      "d": "Two-storey homes coming soon to Mulig, Toril. Photos are for announcement purposes only. Message us to get updates and early information.",
+      "x": [
+        [
+          "Project",
+          "Mulig, Toril"
+        ],
+        [
+          "Status",
+          "Coming soon"
+        ],
+        [
+          "Price",
+          "Message for price"
+        ]
+      ],
+      "am": [
+        "Two-storey homes"
+      ]
+    },
+    {
+      "m": "Sell",
+      "lab": "per month for 60 months",
+      "tg": "Pre-selling",
+      "n": "The West Village at DGT",
+      "t": "Condo",
+      "loc": "Matina",
+      "a": "Matina, Davao City",
+      "p": 12700,
+      "b": null,
+      "img": "images/west-village.webp",
+      "d": "A condo in a 22-hectare township of about ₱33 billion that brings together residential, commercial, business and lifestyle spaces, in an established part of Davao City.",
+      "x": [
+        [
+          "Payment plan",
+          "₱12,700 monthly, 60 months"
+        ],
+        [
+          "Township",
+          "22 hectares"
+        ],
+        [
+          "Location",
+          "Matina"
+        ],
+        [
+          "Type",
+          "Condo"
+        ]
+      ],
+      "am": [
+        "Township living",
+        "Near major roads",
+        "Business district nearby"
+      ],
+      "id": "s0"
+    },
+    {
+      "m": "Rent",
+      "n": "Matina Family House",
+      "t": "House",
+      "loc": "Matina",
+      "a": "Matina, Davao City",
+      "p": 28000,
+      "b": 3,
+      "ba": 2,
+      "s": 140,
+      "d": "A bright two-storey house with a carport, a small garden and a modern kitchen, close to schools and malls.",
+      "x": [
+        [
+          "Deposit",
+          "2 months"
+        ],
+        [
+          "Advance",
+          "1 month"
+        ],
+        [
+          "Lease term",
+          "1 year"
+        ],
+        [
+          "Available",
+          "Now"
+        ],
+        [
+          "Furnishing",
+          "Semi-furnished"
+        ],
+        [
+          "Pets",
+          "Allowed"
+        ]
+      ],
+      "am": [
+        "Carport",
+        "Garden",
+        "Aircon in bedrooms",
+        "Fiber ready"
+      ],
+      "id": "s1"
+    },
+    {
+      "m": "Rent",
+      "n": "Lanang Studio Condo",
+      "t": "Condo",
+      "loc": "Lanang",
+      "a": "Lanang, Davao City",
+      "p": 16500,
+      "b": 0,
+      "ba": 1,
+      "s": 28,
+      "d": "A fully furnished studio with a pool, a gym and 24/7 security, about ten minutes from the business district.",
+      "x": [
+        [
+          "Deposit",
+          "2 months"
+        ],
+        [
+          "Advance",
+          "1 month"
+        ],
+        [
+          "Lease term",
+          "6 months or more"
+        ],
+        [
+          "Available",
+          "Now"
+        ],
+        [
+          "Furnishing",
+          "Fully furnished"
+        ],
+        [
+          "Pets",
+          "No pets"
+        ]
+      ],
+      "am": [
+        "Pool",
+        "Gym",
+        "Security 24/7",
+        "Wi-Fi included"
+      ],
+      "id": "s2"
+    },
+    {
+      "m": "Rent",
+      "n": "Buhangin Apartment",
+      "t": "Apartment",
+      "loc": "Buhangin",
+      "a": "Buhangin, Davao City",
+      "p": 12000,
+      "b": 2,
+      "ba": 1,
+      "s": 55,
+      "d": "A ground-floor apartment with its own parking slot, a covered laundry area and a quiet neighborhood.",
+      "x": [
+        [
+          "Deposit",
+          "2 months"
+        ],
+        [
+          "Advance",
+          "1 month"
+        ],
+        [
+          "Lease term",
+          "1 year"
+        ],
+        [
+          "Available",
+          "Dec 1"
+        ],
+        [
+          "Furnishing",
+          "Unfurnished"
+        ],
+        [
+          "Pets",
+          "Cats only"
+        ]
+      ],
+      "am": [
+        "Parking",
+        "Laundry area",
+        "Water included"
+      ],
+      "id": "s3"
+    },
+    {
+      "m": "Sell",
+      "n": "Talomo Corner Lot House",
+      "t": "House",
+      "loc": "Talomo",
+      "a": "Talomo, Davao City",
+      "p": 6800000,
+      "b": 4,
+      "ba": 3,
+      "s": 210,
+      "d": "A corner-lot home with a roof deck, a double garage and a finished interior, ready to move in.",
+      "x": [
+        [
+          "Lot area",
+          "180 m²"
+        ],
+        [
+          "Title",
+          "Clean title"
+        ],
+        [
+          "Financing",
+          "Bank, Pag-IBIG or cash"
+        ],
+        [
+          "Status",
+          "Ready to move in"
+        ],
+        [
+          "Garage",
+          "2 cars"
+        ],
+        [
+          "Year built",
+          "2021"
+        ]
+      ],
+      "am": [
+        "Roof deck",
+        "Garage",
+        "Gated subdivision",
+        "Near school"
+      ],
+      "id": "s4"
+    },
+    {
+      "m": "Sell",
+      "n": "Catalunan Townhouse",
+      "t": "House",
+      "loc": "Catalunan",
+      "a": "Catalunan Grande, Davao City",
+      "p": 3200000,
+      "b": 3,
+      "ba": 2,
+      "s": 96,
+      "d": "A two-storey townhouse in a gated community with a clubhouse and 24-hour security.",
+      "x": [
+        [
+          "Lot area",
+          "72 m²"
+        ],
+        [
+          "Title",
+          "Clean title"
+        ],
+        [
+          "Financing",
+          "Bank or Pag-IBIG"
+        ],
+        [
+          "Status",
+          "Ready to move in"
+        ],
+        [
+          "Garage",
+          "1 car"
+        ],
+        [
+          "Year built",
+          "2022"
+        ]
+      ],
+      "am": [
+        "Clubhouse",
+        "Gated",
+        "Playground"
+      ],
+      "id": "s5"
+    },
+    {
+      "m": "Assume",
+      "n": "Toril Smart Home",
+      "t": "House",
+      "loc": "Toril",
+      "a": "Toril, Davao City",
+      "p": 14500,
+      "b": 3,
+      "ba": 2,
+      "s": 88,
+      "d": "A well-kept house with payments up to date. Take over the remaining balance with a small cash-out.",
+      "x": [
+        [
+          "Monthly payment",
+          "₱14,500"
+        ],
+        [
+          "Cash-out",
+          "₱350,000"
+        ],
+        [
+          "Remaining term",
+          "11 years"
+        ],
+        [
+          "Lot area",
+          "110 m²"
+        ],
+        [
+          "Status",
+          "Ready to move in"
+        ],
+        [
+          "Payments",
+          "Up to date"
+        ]
+      ],
+      "am": [
+        "Carport",
+        "Garden",
+        "Gated subdivision"
+      ],
+      "id": "s6"
+    },
+    {
+      "m": "Assume",
+      "n": "Lanang Condo 1BR",
+      "t": "Condo",
+      "loc": "Lanang",
+      "a": "Lanang, Davao City",
+      "p": 18900,
+      "b": 1,
+      "ba": 1,
+      "s": 36,
+      "d": "A one-bedroom condo with a balcony. The previous owner is moving abroad and wants a quick turnover.",
+      "x": [
+        [
+          "Monthly payment",
+          "₱18,900"
+        ],
+        [
+          "Cash-out",
+          "₱500,000"
+        ],
+        [
+          "Remaining term",
+          "8 years"
+        ],
+        [
+          "Floor",
+          "14th"
+        ],
+        [
+          "Status",
+          "Ready to move in"
+        ],
+        [
+          "Payments",
+          "Up to date"
+        ]
+      ],
+      "am": [
+        "Balcony",
+        "Pool",
+        "Gym",
+        "Security 24/7"
+      ],
+      "id": "s7"
+    }
+  ],
+  "events": []
+}
